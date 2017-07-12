@@ -20,10 +20,10 @@ void loop()                                  // Main loop auto-repeats
  servoLeft.writeMicroseconds(1700);         // 1.7 ms -> counterclockwise
  servoRight.writeMicroseconds(1300);        // 1.3 ms -> clockwise
  delay(500);
- servoLeft.writeMicroseconds(1300);         // 1.7 ms -> counterclockwise
- servoRight.writeMicroseconds(1700);        // 1.3 ms -> clockwise
+ servoLeft.writeMicroseconds(1300);         // 1.3 ms -> clockwise
+ servoRight.writeMicroseconds(1700);        // 1.7 ms -> counterclockwise
  delay(500);
- servoLeft.writeMicroseconds(1300);         // 1.7 ms -> counterclockwise
+ servoLeft.writeMicroseconds(1300);         // 1.3 ms -> clockwise
  servoRight.writeMicroseconds(1300);        // 1.3 ms -> clockwise
  delay(2000);
 }
